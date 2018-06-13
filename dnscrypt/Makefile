@@ -2,8 +2,8 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=dnscrypt
-PKG_VERSION:=2018-05-19
-PKG_RELEASE:=2.0.14
+PKG_VERSION:=2018-06-06
+PKG_RELEASE:=2.0.15
 PKG_MAINTAINER:=chenhw2 <https://github.com/chenhw2>
 
 PKG_SOURCE:=dnscrypt-proxy-linux_$(ARCH)-$(PKG_RELEASE).tar.gz
