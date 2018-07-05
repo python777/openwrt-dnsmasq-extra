@@ -8,6 +8,7 @@ PKG_MAINTAINER:=chenhw2 <https://github.com/chenhw2>
 
 PKG_SOURCE:=dnscrypt-proxy-linux_$(ARCH)-$(PKG_RELEASE).tar.gz
 PKG_SOURCE_URL:=https://github.com/jedisct1/dnscrypt-proxy/releases/download/$(PKG_RELEASE)/
+PKG_HASH:=skip
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)
 
 include $(INCLUDE_DIR)/package.mk
